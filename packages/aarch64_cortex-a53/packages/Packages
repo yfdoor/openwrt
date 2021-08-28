@@ -1,0 +1,492 @@
+Package: coremark
+Version: 2021-03-12-1541482b-2
+Depends: libc
+License: Apache-2.0
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 11110
+Filename: coremark_2021-03-12-1541482b-2_aarch64_cortex-a53.ipk
+Size: 11919
+SHA256sum: f9194be8cf940e5523d071e3e51e1c03300dad823310f9624faa4e313cd83797
+Description:  Embedded Microprocessor Benchmark
+
+Package: coreutils-base64
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 22758
+Filename: coreutils-base64_8.32-6_aarch64_cortex-a53.ipk
+Size: 23558
+SHA256sum: 459ff65972b2bed28c2210a0e3fa0f7da5dc9b07821313bd49d48e180e4420e0
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 104
+Filename: coreutils_8.32-6_aarch64_cortex-a53.ipk
+Size: 992
+SHA256sum: fb9a9b971682ca8dbac29fc9a31450c540ed8a6c52a6271969f8e312bdfe85fa
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.78.0-1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a53
+Installed-Size: 56133
+Filename: curl_7.78.0-1_aarch64_cortex-a53.ipk
+Size: 56919
+SHA256sum: 7e6b68c2f865bc7ded82fbc33c8076f82337ec6f552c90d1a292137e97ea6337
+Description:  A client-side URL transfer utility
+
+Package: ddns-scripts
+Version: 2.7.8-3
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14581
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15664
+SHA256sum: e7655fe627f4c8abecd1de0f82d02d76f487c830b4091f566bcbdff0892e8a00
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 5289
+Filename: etherwake_1.09-5_aarch64_cortex-a53.ipk
+Size: 6229
+SHA256sum: ced60b9f61e7aac5b5417bf1a749bd746de280ca81734842511f0c3415f11940
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: htop
+Version: 3.0.5-1
+Depends: libc, libncurses6
+License: GPL-2.0-or-later
+Section: admin
+CPE-ID: cpe:/a:htop:htop
+Architecture: aarch64_cortex-a53
+Installed-Size: 87102
+Filename: htop_3.0.5-1_aarch64_cortex-a53.ipk
+Size: 87882
+SHA256sum: 664887ab329d93eb40c336737f1bd522f1b04ea79ea759d6efa1b3b865b48ac5
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libcurl4
+Version: 7.78.0-1
+Depends: libc, libopenssl1.1, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a53
+Installed-Size: 169956
+Filename: libcurl4_7.78.0-1_aarch64_cortex-a53.ipk
+Size: 170712
+SHA256sum: 0e22b7995895b880c4f3bb151f6c533b571ee406bbc63b224636a76f58321941
+Description:  A client-side URL transfer library
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 25575
+Filename: libev_4.31-1_aarch64_cortex-a53.ipk
+Size: 26302
+SHA256sum: 43757516c35b097613c5df5e9a6d7108627a8adcd3997f5661e9c9617fccbef3
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libminiupnpc
+Version: 2.2.2-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: aarch64_cortex-a53
+Installed-Size: 23750
+Filename: libminiupnpc_2.2.2-1_aarch64_cortex-a53.ipk
+Size: 24458
+SHA256sum: 4c7a6a0b9472966c43473ec97f6d2936867951171e800e14deec4a18d32f2d8c
+Description:  Lightweight UPnP library
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+License: BSD-3-Clause
+Section: libs
+ABIVersion: 1
+Architecture: aarch64_cortex-a53
+Installed-Size: 3647
+Filename: libnatpmp1_20150609-3_aarch64_cortex-a53.ipk
+Size: 4546
+SHA256sum: c435fc1468114457f55db6177a5d051893fd71d497387908fcb2cc67f47e01ac
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libsodium
+Version: 1.0.18-3
+Depends: libc
+License: ISC
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 106849
+Filename: libsodium_1.0.18-3_aarch64_cortex-a53.ipk
+Size: 108094
+SHA256sum: a34f3af6aef5ed39a208b2d146ee3d3202e1fe90fd3aea1f029442a7f8708c43
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+License: LGPL-2.1
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 20233
+Filename: libudns_0.4-1_aarch64_cortex-a53.ipk
+Size: 20988
+SHA256sum: 0e90cd43da1583f2984c940bd22a6a6c5710532d3e0d36522a36c6cc96a77780
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: miniupnpd
+Version: 2.0.20170421-3
+Depends: libc, iptables, libip4tc2, libuuid1
+License: BSD-3-Clause
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 58670
+Filename: miniupnpd_2.0.20170421-3_aarch64_cortex-a53.ipk
+Size: 59617
+SHA256sum: baec1ab2fb002fb60573cfef54a80886ceb4854dbbb633655122178702f3dcb3
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: nlbwmon
+Version: 2020-04-11.1-34a18876-5
+Depends: libc, libubox20210516, libnl-tiny1, zlib, kmod-nf-conntrack-netlink
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 21187
+Filename: nlbwmon_2020-04-11.1-34a18876-5_aarch64_cortex-a53.ipk
+Size: 21984
+SHA256sum: 3f00e077edf4e54b9263e55981a479319f2bfc7a285892bf506bfac443207d28
+Description:  OpenWrt Traffic Usage Monitor
+
+Package: strongswan-charon
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 246975
+Filename: strongswan-charon_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 247635
+SHA256sum: 7cb1ae3fa9bf4da5f747eb5b0e579f20aa742c5412d121bab3eb3c952d0c890e
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-ipsec
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 5943
+Filename: strongswan-ipsec_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 6965
+SHA256sum: f106a4e10634b01d5d44b30754c0f4c8fea9805014d50173b77b59423932ea33
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the ipsec utility.
+
+Package: strongswan-minimal
+Version: 5.9.3-2
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xcbc
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 104
+Filename: strongswan-minimal_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 1089
+SHA256sum: 43f002f8b6436b918771103a4cc39ac49426e2c27887a0d410dbf929385eaf8d
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies for a minimal IKEv2 setup.
+
+Package: strongswan-mod-aes
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 15642
+Filename: strongswan-mod-aes_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 15859
+SHA256sum: 5587066083053524ecdbcc9f68700744ba1972a19297888d433a06904f3a3757
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-gmp
+Version: 5.9.3-2
+Depends: libc, strongswan, libgmp10
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 12701
+Filename: strongswan-mod-gmp_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 13516
+SHA256sum: df410930006a75ed75f079c0852cdb4ce2f577648f646aac2dfb3aff959d11b9
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-hmac
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 2672
+Filename: strongswan-mod-hmac_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 3500
+SHA256sum: 6caae11d13a7cafd51b8bad0040080fb189eefdf317ea354c02e945a61cdbe6c
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-libipsec
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 22245
+Filename: strongswan-mod-kernel-libipsec_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 23044
+SHA256sum: 7815f8c46612e58abfff3d8e4a9909a3abfa9521e63c0d0da0e5592f4970bc9b
+Description:  StrongSwan libipsec kernel interface plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 37191
+Filename: strongswan-mod-kernel-netlink_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 38096
+SHA256sum: 01703b77d8b4e5c38d993a90f9e5cf6ea1ace51900b0366beb31ac9f26c095a5
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-nonce
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 1667
+Filename: strongswan-mod-nonce_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 2476
+SHA256sum: 78ce808e0980aace331abbb7c57e41b3c5d1f6d4c300e65bd03cdd3b37d0f08c
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 2855
+Filename: strongswan-mod-pubkey_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 3681
+SHA256sum: 7e898454ba547891394edb88504e3f25d1749770180c1620940416e0a60a0c10
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 2604
+Filename: strongswan-mod-random_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 3412
+SHA256sum: 32644feddaa8839a1219ef5018d54730e7dceca1fdb9d71cf2738722497e5289
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-sha1
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 5497
+Filename: strongswan-mod-sha1_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 6327
+SHA256sum: b28eb4bae6e77445bf05e59c88da067da23f34725bc80141d555eefc32901414
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 5617
+Filename: strongswan-mod-socket-default_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 6469
+SHA256sum: a7dfbe27ea6b4e20df5c0031ceee0c4bf4087a4a835c272cdf6c2310f35a46c3
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-stroke
+Version: 5.9.3-2
+Depends: libc, strongswan, strongswan-charon, strongswan-ipsec
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 69389
+Filename: strongswan-mod-stroke_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 70288
+SHA256sum: 3a07318d9dbab6d402642d2731172322a5a14300ec99d8215c559618f6cb1d53
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-updown
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 9442
+Filename: strongswan-mod-updown_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 10273
+SHA256sum: 00be842619de54a6bf677b5a858250b8527db0c1c803b8f0abf8e9062c0d62d6
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-x509
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 31345
+Filename: strongswan-mod-x509_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 32140
+SHA256sum: f34846798da692ae49d3854323c7b726b970b5a3692d0b9247af87192ea6b661
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 3067
+Filename: strongswan-mod-xauth-generic_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 3894
+SHA256sum: 5836d1c422f9fd67342462cde8527e9febf10859f7aa0317a3ac3394f74af7b8
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.9.3-2
+Depends: libc, strongswan
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 3227
+Filename: strongswan-mod-xcbc_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 4048
+SHA256sum: 5aba27a8992f4d7174672bb92713ce379a93b729463965d0f7bb596387f83c56
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan
+Version: 5.9.3-2
+Depends: libc, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+License: GPL-2.0-or-later
+Section: net
+CPE-ID: cpe:/a:strongswan:strongswan
+Architecture: aarch64_cortex-a53
+Installed-Size: 174940
+Filename: strongswan_5.9.3-2_aarch64_cortex-a53.ipk
+Size: 175492
+SHA256sum: 64f145753fbacd710869efaac71acbeed819680aca89992e2a7bdc57da435561
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+
+Package: wget-ssl
+Version: 1.21.1-3
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:gnu:wget
+Architecture: aarch64_cortex-a53
+Installed-Size: 216485
+Filename: wget-ssl_1.21.1-3_aarch64_cortex-a53.ipk
+Size: 217146
+SHA256sum: 74c1395e28127ae303c21c5cfb991ece6a04ece922a4dbb7960a34ad52e9f38a
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: zerotier
+Version: 1.6.5-1
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1
+License: BSL 1.1
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 448363
+Filename: zerotier_1.6.5-1_aarch64_cortex-a53.ipk
+Size: 448483
+SHA256sum: 0bad8b953587d47c3d72c108515ee88b9e0e7adc616dd9af3f62e74e1566758d
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
